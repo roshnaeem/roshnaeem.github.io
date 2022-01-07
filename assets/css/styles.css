@@ -17,22 +17,6 @@
 13. FOOTER
 14. COPYRIGHT
 
-
--------------------------------------------------------------------*/
-/*------------------------------------------------------------------
-[ Color codes ]
-    
-    [ Text and Background Color ]
-        Main color 1:       #1c93e5     
-        Main color 2:       #009688      
-        Main color 3:       #9c27b0
-        Main color 4:       #ff4081      
-        Background 1:       #FFFFFF            
-        Background 2:       #F6F6F6           
-        Shadow color:       #000000;            
-
--------------------------------------------------------------------*/
-/*------------------------------------------------------------------
 [Typography]
 
     [ There are using two different font typography ]
@@ -3870,4 +3854,102 @@ BLOG Pagination
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
+.fh5co-blog {
+  margin-bottom: 175px; }
+  .fh5co-blog .universal-h2 {
+    margin-bottom: 55px;
+    padding-bottom: 20px; }
+  @media (max-width: 620px) {
+    .fh5co-blog {
+      margin-bottom: 105px; } }
+
+      
+.blog-inner2 {
+  display: flex;
+  justify-content: space-between; }
+
+.blog-slider .slick-slide {
+  margin: 0 15px; }
+
+.blog-slider .slick-list {
+  margin: 0 -15px; }
+
+.single-blog {
+  display: flex !important; }
+  .single-blog .single-blog__img {
+    width: 50%;
+    font-size: 0; }
+  .single-blog .single-blog__text {
+    width: 50%;
+    padding: 7%;
+    border: 3px solid #f5f5f5;
+    border-left: 0; }
+    .single-blog .single-blog__text h4 {
+      margin-bottom: 5px;
+      font-size: 24px;
+      line-height: 33px; }
+    .single-blog .single-blog__text span {
+      display: block;
+      margin-bottom: 15px;
+      font-size: 14px;
+      color: #0bceaf;
+      font-family: "Calisto-MT-Bold"; }
+    .single-blog .single-blog__text p {
+      color: #777;
+      line-height: 21px; }
+    @media (max-width: 992px) {
+      .single-blog .single-blog__text {
+        padding: 5%; }
+        .single-blog .single-blog__text h4 {
+          margin-bottom: 3px;
+          font-size: 20px;
+          line-height: 24px; }
+        .single-blog .single-blog__text p {
+          font-size: 14px;
+          line-height: 19px; } }
+    @media (max-width: 420px) {
+      .single-blog .single-blog__text {
+        padding: 3%; }
+        .single-blog .single-blog__text h4 {
+          font-size: 16px; }
+        .single-blog .single-blog__text span {
+          margin-bottom: 7px;
+          font-size: 12px; }
+        .single-blog .single-blog__text p {
+          font-size: 13px;
+          line-height: 16px; } }
+  .single-blog:nth-child(even) h4 {
+    color: #0bceaf; }
+  @media (max-width: 1250px) {
+    .single-blog .single-blog__img img {
+      width: 100%;
+      height: 100%; } }
+
+.blog-slider {
+  position: relative; }
+  .blog-slider .slick-arrow {
+    position: absolute;
+    bottom: -22%; }
+  .blog-slider .slick-prev {
+    left: 45.5%; }
+    @media (max-width: 1250px) {
+      .blog-slider .slick-prev {
+        left: 40%; } }
+    @media (max-width: 520px) {
+      .blog-slider .slick-prev {
+        left: 35%; } }
+  .blog-slider .slick-next {
+    right: 45.5%; }
+    @media (max-width: 1250px) {
+      .blog-slider .slick-next {
+        right: 40%; } }
+    @media (max-width: 520px) {
+      .blog-slider .slick-next {
+        right: 35%; } }
+  .blog-slider .span-arrow:hover {
+    color: #777;
+    border-color: #777; }
+
 /*# sourceMappingURL=styles.css.map */
