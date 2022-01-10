@@ -3855,7 +3855,16 @@ BLOG Pagination
   background-size: cover;
 }
 
+.course-border {
+  border-style: solid;
+  border-color: #0bceaf;
+  border-radius: 25px;
+}
 
+.course-border:hover {
+  background-color: #0bceaf;
+  opacity: 1;
+}
 .fh5co-blog {
   margin-bottom: 175px; }
   .fh5co-blog .universal-h2 {
